@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(191, 232, 130);
+
+  .logo {
+    margin: 8px 16px;
+  }
+
+  .button {
+    display: flex;
+    margin: 8px 16px;
+    // padding-inline: 32px;
+    justify-content: space-between;
+    // background-color: red;
+
+    .button_Ele {
+      padding: 16px;
+      font-family: "Black Han Sans", sans-serif;
+      color: white;
+      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    }
+  }
+}
