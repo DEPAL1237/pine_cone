@@ -9,19 +9,24 @@
 .main {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   background-color: rgb(191, 232, 130);
 }
 .main .logo {
-  margin: 8px 16px;
+  margin: 8px 8px;
+  justify-content: center;
+}
+.main .logo img {
+  width: 58px;
+  filter: drop-shadow(3px 2px 2px #5c7c41);
 }
 .main .button {
   display: flex;
-  margin: 8px 16px;
-  justify-content: space-between;
+  margin-right: 16px;
 }
 .main .button .button_Ele {
-  padding: 16px;
+  padding-inline: 16px;
+  padding-block: 8px;
   font-family: "Black Han Sans", sans-serif;
   color: white;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
