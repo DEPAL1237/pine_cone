@@ -31,3 +31,8 @@
   color: white;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
+
+.imginbenner {
+  max-width: 100%;
+  height: auto;
+}
