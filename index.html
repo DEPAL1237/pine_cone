@@ -3,17 +3,175 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
     <title>PiNeCOne_valLeY</title>
   </head>
   <body>
     <div class="menu">
-      <div class="menu__logo">logo</div>
+      <div class="menu__logo"><a href="index.html"> PineConeValley</a></div>
       <div class="menu__buttons">
-        <div class="menu__button">공지</div>
-        <div class="menu__button">세계관</div>
-        <div class="menu__button">지도+프로필</div>
+        <div class="menu__button">
+          <a
+            href="https://docs.google.com/document/d/1jS31E8t6bpDJyCUxWRhm4GjR54xkVNKl9UiRNq5l4JE/edit"
+            >세계관</a
+          >
+        </div>
+        <div class="menu__button">
+          <a
+            href="https://docs.google.com/document/d/10_ZoEeIA8Mtqra1INE7pIxedrS3PBGiPqDS-HSPR1Cs/edit"
+            >시스템</a
+          >
+        </div>
+        <div class="menu__button"><a href="town/index.html">마을</a></div>
         <div class="menu__button"><a href="Album/index.html">앨범</a></div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="banner">
+        <div class="banner__logo"><img src="img/로고_압축.png" alt="" /></div>
+        <div class="banner__background"><img src="img/배너_압축.png" alt="" /></div>
+      </div>
+      <div class="text">터치패드를 이용해 옆으로 넘길 수 있습니다.</div>
+      <div class="Cards">
+        <div id="section1" class="section">
+          <div class="container">
+            <div class="wrapper">
+              <div class="card">
+                <img class="card__img" src="" />
+                <div class="card__text">
+                  <h3>게시판</h3>
+                  <p>
+                    이상의 찬미를 인간에 아름다우냐? 이성은 인류의 청춘을 사막이다. 열매를
+                    실현에 청춘은 우리는 이상을 뿐이다. 그들에게 방황하였으며, 곧 아름답고
+                    풀이 우리 피다. 이상의 거친 구할 미인을 보라. 봄바람을 생명을 귀는
+                    용기가 가치를 그리하였는가? 웅대한 노래하며 가지에 봄바람이다. 가지에
+                    트고, 설산에서 귀는 얼음과 노래하며 이성은 위하여 피다. 되려니와,
+                    할지라도 오아이스도 풀밭에 그리하였는가? 광야에서 실로 봄날의 바이며,
+                    찬미를 반짝이는 청춘이 대중을 넣는 철환하였는가?
+                  </p>
+                </div>
+                <div class="card__buttons">
+                  <div class="button">
+                    <a
+                      href="notice/index.html"
+                      onclick="alert('게시판으로 이동합니다.');"
+                      style="cursor: pointer"
+                    >
+                      보러가기</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section2" class="section">
+          <div class="container">
+            <div class="wrapper">
+              <div id="section2_1">
+                <div class="card">
+                  <img class="card__img" src="img/로고_압축.png" />
+                  <div class="card__text">
+                    <h3>세계관</h3>
+                  </div>
+                  <div class="card__buttons">
+                    <div class="button">
+                      <a
+                        href="https://docs.google.com/document/d/1jS31E8t6bpDJyCUxWRhm4GjR54xkVNKl9UiRNq5l4JE/edit"
+                        onclick="alert('세계관으로 이동합니다.');"
+                        style="cursor: pointer"
+                      >
+                        보러가기</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="img/로고_압축.png" />
+                  <div class="card__text">
+                    <h3>시스템</h3>
+                  </div>
+                  <div class="card__buttons">
+                    <div class="button">
+                      <a
+                        href="https://docs.google.com/document/d/10_ZoEeIA8Mtqra1INE7pIxedrS3PBGiPqDS-HSPR1Cs/edit"
+                        onclick="alert('시스템으로 이동합니다.');"
+                        style="cursor: pointer"
+                      >
+                        보러가기</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="section2_2">
+              <div class="card">
+                <img class="card__img" src="img/지도_압축.png" />
+                <div class="card__text">
+                  <h3>마을</h3>
+                </div>
+                <div class="card__buttons">
+                  <div class="button">
+                    <a
+                      href="town/index.html"
+                      onclick="alert('마을로 이동합니다.');"
+                      style="cursor: pointer"
+                    >
+                      보러가기</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <img class="card__img" src="" />
+                <div class="card__text">
+                  <h3>앨범</h3>
+                </div>
+                <div class="card__buttons">
+                  <div class="button">
+                    <a
+                      href="Album/index.html"
+                      onclick="alert('앨범으로 이동합니다.');"
+                      style="cursor: pointer"
+                    >
+                      보러가기</a
+                    >
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div id="section1" class="section">
+          <div class="container">
+            <div class="wrapper">
+              <div class="card">
+                <img class="card__img" src="img/홍보지.jpeg" />
+                <div class="card__text">
+                  <h3>파인콘밸리, 함께 하시겠습니까?</h3>
+                </div>
+                <div class="card__buttons">
+                  <div class="button">
+                    <a
+                      href="https://band.us/n/a2aa97N0x7Kdx"
+                      onclick="alert('파인콘밸리 프공방으로 이동합니다.');"
+                      style="cursor: pointer"
+                    >
+                      함께 할래요!</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
