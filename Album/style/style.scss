@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  -ms-overflow-style: none;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.link:hover {
+  corsour: url(../img/마우스커서2.png) 20 30, auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  background-color: rgb(193, 240, 162);
+  font-family: "Black Han Sans", sans-serif;
+  color: white;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    padding: 16px;
+    font-size: 20px;
+  }
+
+  .menu__buttons {
+    display: flex;
+    padding-inline: 16px;
+    gap: 16px;
+  }
+}
