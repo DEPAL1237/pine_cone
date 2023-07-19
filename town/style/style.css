@@ -101,6 +101,7 @@ body {
 #section1 {
   display: flex;
   font-family: "Jua", sans-serif;
+  padding-inline: 20px;
   overflow: auto;
 }
 #section1 .container {
@@ -133,7 +134,7 @@ body {
 }
 #section1 .card__img {
   width: 95%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 5/5;
   margin-top: 8px;
   filter: grayscale(100%);
   transition: filter 500ms ease;

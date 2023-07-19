@@ -121,6 +121,7 @@ body {
 #section1 {
   display: flex;
   font-family: "Jua", sans-serif;
+  padding-inline: 20px;
   overflow: auto;
 
   .container {
@@ -156,7 +157,7 @@ body {
 
     &__img {
       width: 95%;
-      aspect-ratio: 4/3;
+      aspect-ratio: 5/5;
       margin-top: 8px;
       //   object-fit: cover;
       filter: grayscale(100%);
