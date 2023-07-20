@@ -57,7 +57,7 @@ body {
   font-size: 50px;
   text-shadow: -1px 0 #ffffff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
-.main .wrapper .bottom__nav > img {
+.main .wrapper .bottom__nav img {
   padding-top: 40px;
   width: 30%;
 }
