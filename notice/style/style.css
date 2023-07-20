@@ -49,13 +49,15 @@ body {
   display: block;
 }
 .main .wrapper .bottom__nav {
-  width: 100vw;
   height: 100vh;
   background-color: #7bae60;
   text-align: center;
-  padding-top: 300px;
   padding-inline: 20px;
   font-family: "Black Han Sans", sans-serif;
   font-size: 50px;
   text-shadow: -1px 0 #ffffff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.main .wrapper .bottom__nav > img {
+  padding-top: 40px;
+  width: 30%;
 }
