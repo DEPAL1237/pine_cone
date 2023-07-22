@@ -62,5 +62,5 @@ body {
   align-items: center;
 }
 .main .wrapper .bottom__nav #img_4 {
-  padding-bottom: 170px;
+  padding-bottom: 170px !important;
 }
