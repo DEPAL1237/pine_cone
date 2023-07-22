@@ -49,14 +49,18 @@ body {
   display: block;
 }
 .main .wrapper .bottom__nav {
-  height: 100vh;
+  height: auto;
   background-color: #7bae60;
   text-align: center;
   padding-inline: 20px;
   font-size: 50px;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .main .wrapper .bottom__nav .img {
   width: 25%;
   align-items: center;
+}
+.main .wrapper .bottom__nav #img_4 {
+  padding-bottom: 170px;
 }
