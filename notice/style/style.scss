@@ -57,6 +57,7 @@ body {
     }
 
     .bottom__nav {
+      overflow: auto;
       height: 100vh !important;
       background-color: #7bae60;
       text-align: center;
@@ -68,6 +69,7 @@ body {
       .img {
         width: 25%;
         align-items: center;
+        padding: 8px;
       }
     }
   }
